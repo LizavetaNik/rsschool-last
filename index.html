@@ -1,1 +1,105 @@
-# 1
+<!DOCTYPE html>
+  <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>cv</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <link rel="icon" href="assets/favicon.ico">
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="container">
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+                        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                        <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li> 
+                        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                        <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                        <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                        <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="main-container">
+                <section class="img-section" id="profile">
+                    <img src="assets/img/image.jpg" alt="my photo" class="img">
+                </section>        
+                
+                <section class="center-section">    
+                    <h1>Nikiforova Lizaveta</h1>
+                    <h2>Junior front-end developer</h2>   
+                </section>
+            </div> 
+
+            <div class="line-container"></div>
+
+            <div class="main-container">   
+                <section class="section" id="contacts">
+                    <h1>Contacts</h1>
+                    <p>tel: 067-633-xx-xx</p>
+                    <p>email:lizabeth.nik@gmail.com</p>
+                </section>
+                <section class="section" id="summary">
+                    <h1>Summary</h1>
+                    <p>I like programming. I am communicative and purposeful. I love working on the visual part of the program.</p>
+                    <p>I have a permanent job. I work in the IT department. But I want to develop and learn programming</p>           
+                </section>    
+                <section class="section" id="skills">
+                    <h1>Skills</h1>
+                    <p>Web-development: HTML, CSS, JavaScript</p>
+                    <p>Version control: GIT,Github</p>
+                </section>
+                <section class="section" id="code">
+                    <h1>Code</h1>
+<pre>setCtsPrice: function() {
+    var product = this.get("Product");
+    if ( product ) 
+    {
+        var priceProduct = product.Price;
+        this.set ("Price", priceProduct);
+    }
+}</pre>
+                </section>
+                <section class="section" id="courses">
+                    <h1>Courses</h1>
+                    <p>code-basics: HTML</p>
+                    <p>code-basics: CSS</p> 
+                    <p>RSSchool: JS</p>    
+                </section>
+                <section class="section" id="projects">
+                    <h1>Projects</h1>
+                    <p>Calculate financial reports</p>
+                    <p>Business process development</p>
+                </section>
+                <section class="section" id="education">
+                    <h1>Education</h1>
+                    <p>Dnepropetrovsk National University named O.Honchar</p>
+                </section>
+                <section class="section" id="languages">
+                    <h1>Languages</h1>
+                    <p>A2-Elementary</p>
+                </section>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <a>@2022</a>
+                <a href="https://github.com/LizavetaNik/rsschool-cv">LizavetaNik</a>
+                
+                <nav class="nav-rsschool">
+                    <a href="https://rs.school/js/"><img src="assets/img/rs_school_js.svg" alt="rs.school" width="100"></a>
+                </nav>
+                
+            </div>
+        </footer>    
+    </body>
+</html>
